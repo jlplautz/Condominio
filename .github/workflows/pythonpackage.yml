@@ -13,6 +13,4 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
-    - name: Link with flake8
-      run: |
-        pipenv run flake8 .
+
